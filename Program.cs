@@ -9,7 +9,7 @@ public class Program
     {
         bool serverStatus = true;
         Console.Title = "SERVER";
-        IPAddress myIp = IPAddress.Parse("192.168.15.10");
+        IPAddress myIp = IPAddress.Parse("");
         int port = 3000;
 
         Server server = new Server(myIp, port);

@@ -4,7 +4,7 @@ public class ProgramClient
 {
     static void StartClient(string[] args)
     {
-        string myIp = "192.168.1.1";
+        string myIp = "";
         int port = 3000;
         Client client = new Client(myIp,port);
         client.ConnectToServer();
